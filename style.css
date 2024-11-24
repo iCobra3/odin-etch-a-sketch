@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    color: red;
+    background-color: red;
+}
+
+.container > div:hover {
+    background-color: black;
+  }
