@@ -1,9 +1,18 @@
-.container{
+.container {
     display: flex;
-    color: red;
+    flex-wrap: wrap; 
+    width: 700px; 
+    height: 700px; 
     background-color: red;
+}
+
+.container > div {
+    width: 25px; 
+    height: 25px;
+    background-color: lightblue; /* Added background color for divs */
+    border: 1px solid black; /* Added border for better visualization */
 }
 
 .container > div:hover {
     background-color: black;
-  }
+}
